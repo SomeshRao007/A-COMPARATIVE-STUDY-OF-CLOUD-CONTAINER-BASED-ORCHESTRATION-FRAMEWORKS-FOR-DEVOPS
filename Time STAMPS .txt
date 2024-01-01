@@ -1,0 +1,34 @@
+for installing docker and configuring client 
+Execution time: 39.756029 seconds
+Execution time: 46.957151 seconds firewall setup
+
+root@ip-172-31-87-171:/home/ubuntu# start=$(date +%s.%N);\
+> docker service create --name SSevaluation --mode global nginx ;\
+> dur=$(echo "$(date +%s.%N) - $start" | bc); \
+> printf "Execution time: %.6f seconds\n" $dur ;
+7ql6zqso2zhmczl7o1immpocq
+overall progress: 5 out of 5 tasks 
+3pyyfdqtq7km: running   [==================================================>] 
+lxskupwivplz: running   [==================================================>] 
+1ib24qrqzicp: running   [==================================================>] 
+l06luryf1m79: running   [==================================================>] 
+qf142n42n06i: running   [==================================================>] 
+verify: Service converged 
+Execution time: 13.591200 seconds
+
+
+for installing Kubernetes 
+Execution time: 13.139570 seconds t3.medium 
+Execution time: 76.318243 seconds
+Execution time: 57.909943
+Execution time: 40.897645
+Execution time: 46.957151
+
+
+mesos
+
+Execution time: 24.879845
+Execution time: 11.137290
+Execution time: 41.598987
+Execution time: 11.568978
+Execution time: 46.957151

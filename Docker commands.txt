@@ -1,0 +1,18 @@
+docker pull redis or redis:version
+
+docker run redis create container or start with logs
+docker start/ stop operation od contrainer 
+docker run -d detached we can use terminal again 
+docker run -p(port we wanted bind):(port container listening to) redis or --name Someshredis7
+
+docker ps list of all running
+docker ps -a list of all created 
+docker logs name or image name(redis:6.2.12)
+
+
+
+start=$(date +%s.%N)
+# do some stuff here
+dur=$(echo "$(date +%s.%N) - $start" | bc)
+
+printf "Execution time: %.6f seconds" $dur
